@@ -13,7 +13,10 @@
     </head>
     <body>
 
-        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+    <?php
+        if($_GET['page'] != 'register' && $_GET['page'] != 'login'){ ?>
+
+ <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
             <a class="navbar-brand ps-3" href="index.html">Sangkuriang</a>
             <!-- Sidebar Toggle-->
@@ -44,3 +47,8 @@
                 <?php include 'menu.php'; ?>
             </div>
             <div id="layoutSidenav_content">
+
+    <?php    } 
+    ?>
+
+       
