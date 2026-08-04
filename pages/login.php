@@ -1,3 +1,4 @@
+<body class="bg-primary">
 <div class="row justify-content-center">
                             <div class="col-lg-5">
                                 <div class="card shadow-lg rounded-lg mt-5">
@@ -28,3 +29,4 @@
                                 </div>
                             </div>
                         </div>
+</body>

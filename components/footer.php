@@ -1,3 +1,5 @@
+<?php
+        if($_GET['page'] != 'register' && $_GET['page'] != 'login'){ ?>
 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
@@ -16,3 +18,4 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+<?php } ?>
