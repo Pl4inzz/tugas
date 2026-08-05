@@ -1,4 +1,8 @@
 <?php
+    if(!isset($_GET['page'])){
+        header('Location: index.php?page=login');
+        exit();
+    }
 //ini test github
  include 'components/header.php'; 
 
@@ -16,7 +20,11 @@
                 include 'pages/databuku.php';
             } elseif($_GET['page'] == 'datapeminjam') {
                 include 'pages/datapeminjam.php';
-            } else {
+            } elseif($_GET['page'] == 'proseslogin'){
+               echo $_POST['password'];
+            }
+            
+            else {
                 include 'pages/dashboard.php';
             }
 
