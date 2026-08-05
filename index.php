@@ -3,7 +3,6 @@
         header('Location: index.php?page=login');
         exit();
     }
-//ini test github
  include 'components/header.php'; 
 
 ?>
